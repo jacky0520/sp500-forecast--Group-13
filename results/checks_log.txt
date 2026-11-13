@@ -1,0 +1,17 @@
+[1] Overlap 2512 days (2016-11-14 to 2026-11-11)
+    max |Yahoo - FRED| = 5.2898 points; days with |diff| > 0.01: 8
+      date          px   SP500
+2018-11-29 2737.800049 2737.76
+2019-08-12 2882.699951 2883.75
+2020-05-11 2930.189941 2930.32
+2020-10-02 3348.419922 3348.44
+2020-10-05 3408.600098 3408.63
+2020-10-06 3360.969971 3360.95
+2020-10-07 3419.439941 3419.45
+2021-08-11 4442.410156 4447.70
+[2] Look-ahead test on 26 origins: max forecast difference = 0.00e+00 points -> PASS
+[3] DM statistic, Combination vs no-change: +0.25 (|DM| > 1.96 = significant at 5%)
+[3] DM statistic, M1 drift vs no-change: +0.64 (|DM| > 1.96 = significant at 5%)
+[3] DM statistic, M2 VOL vs no-change: -0.21 (|DM| > 1.96 = significant at 5%)
+[3] DM statistic, M3 RATE vs no-change: -0.47 (|DM| > 1.96 = significant at 5%)
+[3] DM statistic, Combination vs drift (benchmark 2): -0.45

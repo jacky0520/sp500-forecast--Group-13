@@ -1,0 +1,68 @@
+{
+  "retrieved_utc": "2026-11-12T22:08:05+00:00",
+  "series": {
+    "SP500": {
+      "description": "S&P 500 price index close (source: S&P Dow Jones Indices via FRED)",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500",
+      "publication": "Official close at 16:00 New York on day t (S&P Dow Jones Indices); appears on FRED about one business day later",
+      "rows": 2608,
+      "first_date": "2016-11-14",
+      "last_usable_date": "2026-11-11",
+      "last_value": 7619.38
+    },
+    "VIXCLS": {
+      "description": "CBOE VIX close",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS",
+      "publication": "Cboe VIX disseminated until 16:15 New York on day t; appears on FRED about one business day later",
+      "rows": 9617,
+      "first_date": "1990-01-02",
+      "last_usable_date": "2026-11-11",
+      "last_value": 17.49
+    },
+    "DGS10": {
+      "description": "10-year Treasury constant-maturity yield, %",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+      "publication": "Federal Reserve H.15 value for day t; appears on FRED about one business day later",
+      "rows": 16921,
+      "first_date": "1962-01-02",
+      "last_usable_date": "2026-11-10",
+      "last_value": 4.98
+    },
+    "DGS3MO": {
+      "description": "3-month Treasury constant-maturity yield, %",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS3MO",
+      "publication": "Federal Reserve H.15 value for day t; appears on FRED about one business day later",
+      "rows": 11791,
+      "first_date": "1981-09-01",
+      "last_usable_date": "2026-11-10",
+      "last_value": 4.3
+    },
+    "DFII10": {
+      "description": "10-year TIPS real yield, %",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10",
+      "publication": "Federal Reserve H.15 value for day t; appears on FRED about one business day later",
+      "rows": 6224,
+      "first_date": "2003-01-02",
+      "last_usable_date": "2026-11-10",
+      "last_value": 2.78
+    },
+    "GSPC_yahoo": {
+      "description": "S&P 500 OHLC from Yahoo Finance (working series; checked against FRED SP500)",
+      "url": "https://finance.yahoo.com/quote/%5EGSPC/history",
+      "publication": "Same evening as the 16:00 New York close",
+      "rows": 6757,
+      "first_date": "2000-01-03",
+      "last_usable_date": "2026-11-12",
+      "last_value": 7592.39990234375
+    },
+    "VIX_yahoo": {
+      "description": "Cboe VIX close from Yahoo Finance (fills FRED's one-day lag)",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/history",
+      "publication": "Same evening as the 16:15 New York VIX close",
+      "rows": 6759,
+      "first_date": "2000-01-03",
+      "last_usable_date": "2026-11-12",
+      "last_value": 18.700000762939453
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Full vendor data files are redistributed only inside the submitted evidence ZIP.
+# The public repository holds labelled samples (data/sample/) plus checksums of the full files.
+data/raw/*.csv
+__pycache__/
+*.pyc

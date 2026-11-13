@@ -1,0 +1,48 @@
+{
+  "market": "S&P 500 price index",
+  "unit": "index points",
+  "target": "Official close, Friday 20 November 2026, 16:00 New York (21:00 UTC), S&P Dow Jones Indices",
+  "information_cutoff": "Friday 13 November 2026, 12:00 London (12:00 UTC)",
+  "origin_date": "2026-11-12",
+  "horizon_trading_days": 6,
+  "observed": {
+    "baseline_P0_close": 7592.4,
+    "VIX_close": 18.700000762939453,
+    "DFII10_used_t_minus_1": 2.78,
+    "DFII10_observation_date": "2026-11-10"
+  },
+  "calculated": {
+    "VOL": 0.046949978411307214,
+    "RATE": -0.06000000000000005,
+    "M1_drift_6d_log_return": 0.0021944178795241702,
+    "M2_VOL": {
+      "a2": 0.0022156823801248414,
+      "b2": 0.001930774907840741,
+      "forecast": 0.0023063322203650577
+    },
+    "M3_RATE": {
+      "a3": 0.002202540745893949,
+      "b3": -0.005419474906086142,
+      "forecast": 0.0025277092402591177
+    },
+    "combined_log_return": 0.0023428197800494485,
+    "training_rows": 5978,
+    "final_forecast": 7610.21
+  },
+  "judgement": {
+    "factors": "VOL (VIX vs 252-day mean) and RATE (20-day change in 10y real yield, lagged 1 day)",
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "training_window": "expanding, from 2003",
+    "discretionary_adjustment_points": 0.0
+  },
+  "final_forecast": 7610.21,
+  "interval_80pct_vix_implied": [
+    7333.92,
+    7896.9
+  ],
+  "warnings": []
+}

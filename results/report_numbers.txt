@@ -1,0 +1,14 @@
+[1] S&P 500 on 5 Nov 2026: 7688.62 -> 7353.73 (-4.36%)
+    VIX: 16.61 -> 28.18; VOL on 5 Nov = 0.460
+[2] VOL 5 Nov = 0.460, VIX 28.18: higher than at 94% of past origins
+[2] VOL latest (2026-11-12) = 0.047, VIX 18.70: higher than at 65% of past origins
+[3] VOL > 0.3: n = 135, mean six-day return = +0.31%, sd = 4.48%
+[3] VOL > 0.4: n = 86, mean six-day return = +0.71%, sd = 4.75%
+[3] VOL > 0.5: n = 48, mean six-day return = +0.32%, sd = 5.49%
+[4] Close 4.36% below the forecast -> error 4.55%, accuracy score 27.2
+[4] Close 4.40% below the forecast -> error 4.60%, accuracy score 27.0
+[5] Origins with error above 3%: 16.6%
+    2008-10-02 -> 2008-10-10: combination 23.9%, no change 23.9%
+    2020-02-20 -> 2020-02-28: combination 14.4%, no change 14.2%
+    2008-11-13 -> 2008-11-21: combination 13.9%, no change 13.9%
+    2025-03-27 -> 2025-04-04: combination 12.4%, no change 12.2%
